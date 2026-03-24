@@ -45,10 +45,10 @@
                         <a class="nav-link" aria-current="page" href="dash.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="dash.html">Employees</a>
+                        <a class="nav-link active" href="employees-list.html">Employees</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="dash.html">Jobs</a>
+                        <a class="nav-link" href="#">Jobs</a>
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
@@ -459,7 +459,9 @@
                                 <div class="d-grid">
                                     <button
                                         type="button"
-                                        class="btn btn-sm btn-warning">
+                                        class="btn btn-sm btn-warning"
+                                        data-bs-dismiss="modal"
+                                        aria-label="close">
                                         Close
                                     </button>
                                 </div>
@@ -472,7 +474,7 @@
      </div>
      </div>
 
-     <!-- add datails modal -->
+     <!-- Details Employee modal -->
 
      <div class="modal fade"
      id="employee_details"
@@ -484,7 +486,7 @@
         <div class="modal-content">
             <div class="modal-header text-bg-dark">
                 <h5 class="modal-title">
-                    Add Employee Detials
+                    Employee Detials
                 </h5>
                 <button
                 type="button"
@@ -493,70 +495,63 @@
                 aria-label="close"></button>
             </div>
             <div class="modal-body">
-                <form action="">
-                    <div class="container">
-                        <div class="row gx-3">
-                            <div class="col-md-12">
-                                <div class="mb-3">
-                                    <input type="date" class="form-control form-control-sm" required>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="mb-3">
-                                    <input type="text"
-                                    class="form-control form-control-sm" placeholder="First Name" required>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="mb-3">
-                                    <input type="text"
-                                    class="form-control form-control-sm" placeholder="Last Name" required>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="mb-3">
-                                    <input type="email"
-                                    class="form-control form-control-sm" placeholder="Email ID" required>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="mb-3">
-                                    <input type="tel"
-                                    class="form-control form-control-sm" placeholder="Phone" required>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="mb-3">
-                                    <select class="form-select form-select-sm" aria-label="Job Assign">
-                                        <option selected>Select job for employee</option>
-                                        <option value="Graphic Desinger">Graphic Designer</option>
-                                        <option value="Web Designer">Web Designer</option>
-                                        <option value="Web Developer">Web Developer</option>
-                                        <option value="Digital Marketing">Degital Marketing</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="col-md-10">
-                                <div class="d-grid">
-                                    <button
-                                        type="button"
-                                        class="btn btn-sm btn-success">
-                                        Add Employee
-                                    </button>
-                                </div>
-                            </div>
-                            <div class="col-md-2">
-                                <div class="d-grid">
-                                    <button
-                                        type="button"
-                                        class="btn btn-sm btn-warning">
-                                        Close
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </form>
+                <table class="table table-bordered small mb-0">
+                    <tr>
+                        <th class="w-50">
+                            ID
+                        </th>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <th class="w-50">
+                            Employee ID
+                        </th>
+                        <td>741</td>
+                    </tr>
+                    <tr>
+                        <th class="w-50">
+                            First Name
+                        </th>
+                        <td>John</td>
+                    </tr>
+                    <tr>
+                        <tr>
+                            <th class="w-50">
+                                Last Name
+                            </th>
+                            <td>Doe</td>
+                        </tr>
+                        <th class="w-50">
+                            Email ID
+                        </th>
+                        <td>johndoe@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <th class="w-50">
+                            Phone
+                        </th>
+                        <td>741867667</td>
+                    </tr>
+                    <tr>
+                        <th class="w-50">
+                            Joining Date
+                        </th>
+                        <td>25th July 2022</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="modal-footer">
+                <a href="#"
+                    class="btn btn-sm btn-warning"
+                    data-bs-toggle="#employee_edit">
+                    Edit Details
+                </a>
+                <a href="#"
+                    class="btn btn-sm btn-primary"
+                    data-bs-dismiss="modal"
+                    aria-label="close">
+                    Close
+                </a>
             </div>
         </div>
      </div>
