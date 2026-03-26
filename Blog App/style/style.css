@@ -11,3 +11,7 @@
     background-position: bottom;
 }
 
+.custom-nav{
+    backdrop-filter: blur(8px);
+}
+
