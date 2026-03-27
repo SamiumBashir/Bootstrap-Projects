@@ -10,4 +10,5 @@
  # Projects
  |Project Name | Live Link                              | Source Code                                      | Repo                                             |
  |-------------|----------------------------------------|--------------------------------------------------|--------------------------------------------------|
- |Blog App     | [Live](https://ems2-red.vercel.app/)| [View](https://github.com/SamiumBashir/Bootstrap-Projects/tree/main/Blog%20App)   |[View](https://github.com/SamiumBashir/Bootstrap-Projects/tree/main/Blog%20App)
+ |Blog App    | [Live](https://blog-app-ten-flame-61.vercel.app/)| [View](https://github.com/SamiumBashir/Bootstrap-Projects/tree/main/Blog%20App)   |[View](https://github.com/SamiumBashir/Bootstrap-Projects/tree/main/Blog%20App)
+ |EMS2.0    | [Live](https://ems2-red.vercel.app/)|[View](https://github.com/SamiumBashir/Bootstrap-Projects/tree/main/EMS%202.0)    |[View](https://github.com/SamiumBashir/Bootstrap-Projects/tree/main/EMS%202.0)  |
