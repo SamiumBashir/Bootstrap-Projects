@@ -1,0 +1,22 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+
+.highlight-card {
+    background: #2176ff;
+    color: white;
+    transform: scale(1.05);
+    z-index: 2;
+    border-radius: 20px;
+}
+
+.package-card {
+    border-radius: 20px;
+    transition: 0.3s;
+}
