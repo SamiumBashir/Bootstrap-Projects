@@ -1,12 +1,12 @@
 body {
-    font-family: 'Poppins', sans-serif;
+     font-family: "Poppins", sans-serif;
 }
 
 .hero-section {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero-bg.jpg');
     background-size: cover;
     background-position: center;
-    height: 80vh;
+    height: 60vh;
 }
 
 .pricing-card {
@@ -39,11 +39,4 @@ body {
     padding: 10px 30px;
     color: #4481eb;
     font-weight: bold;
-}
-
-.album-title {
-    font-family: 'Inter';
-    font-size: 1.25rem;
-    color: #6c757d;
-    font-weight: 700;
 }
