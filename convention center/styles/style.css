@@ -1,6 +1,7 @@
-body{
+body {
     font-family: 'Poppins', sans-serif;
 }
+
 .hero-section {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero-bg.jpg');
     background-size: cover;
@@ -8,15 +9,65 @@ body{
     height: 80vh;
 }
 
-.highlight-card {
-    background: #2176ff;
-    color: white;
-    transform: scale(1.05);
-    z-index: 2;
+.pricing-card {
+    border: none;
     border-radius: 20px;
+    transition: transform 0.3s;
+    padding: 2rem 1rem;
 }
 
-.package-card {
+.btn-outline-primary-custom {
+    background-color: #fff0f5;
+    color: #4e73df;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 30px;
+    font-weight: bold;
+}
+
+/* Highlighted Column */
+.card-highlight {
+    background: linear-gradient(135deg, #4481eb 0%, #04befe 100%);
+    color: white;
+    transform: scale(1.05);
+    z-index: 10;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+.card-highlight .btn-light {
+    border-radius: 50px;
+    padding: 10px 30px;
+    color: #4481eb;
+    font-weight: bold;
+}
+
+.hot-badge {
+    position: absolute;
+    top: -10px;
+    right: 20px;
+    background-color: #ff4d4d;
+    color: white;
+    padding: 2px 12px;
     border-radius: 20px;
-    transition: 0.3s;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.feature-list {
+    list-style: none;
+    padding: 0;
+}
+
+.feature-list li {
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+}
+
+.feature-list i {
+    margin-right: 10px;
+    color: #7b68ee;
+}
+
+.card-highlight .feature-list i {
+    color: white;
 }

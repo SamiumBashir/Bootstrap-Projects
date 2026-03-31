@@ -18,7 +18,10 @@
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-content="#navbarNav"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -75,50 +78,91 @@
 
     <section class="bg-light py-5">
       <div class="container py-5">
-        <h2 class="text-center fw-bold mb-5">Our Package</h2>
         <div class="row g-4 align-items-center">
-          <div class="col-lg-3 col-md-6">
-            <div class="card package-card border-0">
-              <h3>$300</h3>
-              <h4 class="fw-bold">Business fair</h4>
-              <p>For most businesses event like book fair, craft fair.</p>
-              <ul class="list-unstyled mt-3">
-                <li>
-                  <i class="bi bi-check-circle-fill text-primary"></i> Limited
-                  access
-                </li>
-                <li>
-                  <i class="bi bi-check-circle-fill text-primary"></i> Security
-                  facility
-                </li>
-              </ul>
-              <button class="btn btn-outline-primary rounded-pill mt-3">
-                Choose plan
-              </button>
+          <div class="col-lg-3">
+            <div class="card pricing-card h-100">
+              <div class="card-body">
+                <h2 class="fw-bold">$300</h2>
+                <h4 class="fw-bold mb-3">Business fair</h4>
+                <p class="text-muted small">
+                  For most businesses event like book fair, craft fair.
+                </p>
+                <ul class="feature-list mt-4">
+                  <li><i class="bi bi-check2"></i> limited space access</li>
+                  <li><i class="bi bi-check2"></i> Security facility</li>
+                  <li><i class="bi bi-check2"></i> event support</li>
+                  <li><i class="bi bi-check2"></i> Decoration design</li>
+                  <li><i class="bi bi-check2"></i> Per day bill</li>
+                </ul>
+                <button class="btn btn-outline-primary-custom w-100 mt-4">
+                  Choose plan
+                </button>
+              </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="card highlight-card border-0 p-4 shadow-lg text-center">
-              <span
-                class="badge bg-danger position-absolute top-0 start-100 translate-middle"
-                >Hot</span
-              >
-              <h3>$800</h3>
-              <h4 class="fw-bold">Wedding plus</h4>
-              <p>For most weddings with premium plans</p>
-              <ul class="list-unstyled text-start">
-                <li>
-                  <i class="bi bi-check-circle-fill text-white"></i> Full space
-                  access
-                </li>
-                <li>
-                  <i class="bi bi-check-circle-fill text-white"></i> Dedicated
-                  team
-                </li>
-              </ul>
-              <button class="btn btn-light rounded-pill mt-3 w-100">
-                Choose plan
-              </button>
+
+          <div class="col-lg-3">
+            <div class="card pricing-card h-100">
+              <div class="card-body">
+                <h2 class="fw-bold">$500</h2>
+                <h4 class="fw-bold mb-3">wedding basic</h4>
+                <p class="text-muted small">
+                  For weddings with basic plan and limited item
+                </p>
+                <ul class="feature-list mt-4">
+                  <li><i class="bi bi-check2"></i> Full space access</li>
+                  <li><i class="bi bi-check2"></i> Food arrangement</li>
+                  <li><i class="bi bi-check2"></i> management support</li>
+                  <li><i class="bi bi-check2"></i> Decoration design</li>
+                  <li><i class="bi bi-check2"></i> Billed as shift</li>
+                </ul>
+                <button class="btn btn-outline-primary-custom w-100 mt-4">
+                  Choose plan
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="card pricing-card card-highlight">
+              <span class="hot-badge">Hot</span>
+              <div class="card-body">
+                <h2 class="fw-bold">$800</h2>
+                <h4 class="fw-bold mb-3">Wedding plus</h4>
+                <p class="small opacity-75">
+                  For most weddings with premium plans
+                </p>
+                <ul class="feature-list mt-4">
+                  <li><i class="bi bi-check2"></i> Full space access</li>
+                  <li><i class="bi bi-check2"></i> Dedicated team</li>
+                  <li><i class="bi bi-check2"></i> Buffet food</li>
+                  <li><i class="bi bi-check2"></i> premium Decoration</li>
+                  <li><i class="bi bi-check2"></i> pay as plan</li>
+                </ul>
+                <button class="btn btn-light w-100 mt-4">Choose plan</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="card pricing-card h-100">
+              <div class="card-body">
+                <h2 class="fw-bold">$1200</h2>
+                <h4 class="fw-bold mb-3">Corporate event</h4>
+                <p class="text-muted small">
+                  For most corporate business events
+                </p>
+                <ul class="feature-list mt-4">
+                  <li><i class="bi bi-check2"></i> Full space access</li>
+                  <li><i class="bi bi-check2"></i> Dedicated team</li>
+                  <li><i class="bi bi-check2"></i> Buffet food</li>
+                  <li><i class="bi bi-check2"></i> premium Decoration</li>
+                  <li><i class="bi bi-check2"></i> pay as plan</li>
+                </ul>
+                <button class="btn btn-outline-primary-custom w-100 mt-4">
+                  Choose plan
+                </button>
+              </div>
             </div>
           </div>
         </div>
