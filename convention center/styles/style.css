@@ -25,18 +25,3 @@ body {
     font-weight: bold;
 }
 
-/* Highlighted Column */
-.card-highlight {
-    background: linear-gradient(135deg, #4481eb 0%, #04befe 100%);
-    color: white;
-    transform: scale(1.05);
-    z-index: 10;
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
-}
-
-.card-highlight .btn-light {
-    border-radius: 50px;
-    padding: 10px 30px;
-    color: #4481eb;
-    font-weight: bold;
-}
