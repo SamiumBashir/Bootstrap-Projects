@@ -8,6 +8,8 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://jsdelivr.net">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -79,24 +81,51 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="./images/hero-bg.jpg" class="d-block w-100" style="height: 550px; object-fit: cover; object-position: center;" />
+          <img
+            src="./images/hero-bg.jpg"
+            class="d-block w-100"
+            style="height: 550px; object-fit: cover; object-position: center"
+          />
           <div class="carousel-caption d-none d-md-block">
-            <h1 class="display-5 fw-bold">The perfect venue for your<br>next event</h1>
-            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit.</p>
+            <h1 class="display-5 fw-bold">
+              The perfect venue for your<br />next event
+            </h1>
+            <p>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit.
+            </p>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="./images/heroBg-2.jpg" class="d-block w-100" style="height: 550px; object-fit:cover; object-position: center ;" />
+          <img
+            src="./images/heroBg-2.jpg"
+            class="d-block w-100"
+            style="height: 550px; object-fit: cover; object-position: center"
+          />
           <div class="carousel-caption d-none d-md-block">
-            <h1 class="display-5 fw-bold">The perfect venue for your<br>next event</h1>
-            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit.</p>
+            <h1 class="display-5 fw-bold">
+              The perfect venue for your<br />next event
+            </h1>
+            <p>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit.
+            </p>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="./images/heroBg-3.jpg" class="d-block w-100" style="height: 550px; object-fit: cover; object-position: center;" />
+          <img
+            src="./images/heroBg-3.jpg"
+            class="d-block w-100"
+            style="height: 550px; object-fit: cover; object-position: center"
+          />
           <div class="carousel-caption d-none d-md-block">
-            <h1 class="display-5 fw-bold">The perfect venue for your<br>next event</h1>
-            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit.</p>
+            <h1 class="display-5 fw-bold">
+              The perfect venue for your<br />next event
+            </h1>
+            <p>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit.
+            </p>
           </div>
         </div>
       </div>
@@ -143,8 +172,8 @@
               class="alert p-0 bg-white text-dark shadow-lg d-flex align-items-center gap-1 position-absolute"
               style="
                 border-left: 8px solid #4e73df;
-                top: 48%;
-                left: 78%;
+                top: 46%;
+                left: 66%;
                 z-index: 100;
                 border-radius: 4px;
                 white-space: nowrap;
@@ -183,7 +212,7 @@
     </section>
 
     <!-- Pricing Card -->
-    <section class="bg-light py-5">
+    <section class="py-5">
       <div class="container">
         <div class="package-header py-5">
           <h2 class="fw-bold text-center mb-4">Our Packages</h2>
@@ -192,17 +221,20 @@
           <div class="col-lg-3">
             <div class="card pricing-card h-100">
               <div class="card-body">
-                <h2 class="fw-bold">$300</h2>
-                <h4 class="fw-bold mb-3">Business fair</h4>
-                <p class="text-muted small">
+                <div class="card-title card-price">
+                  <h2 class="fw-bold ">$300</h2>
+                  <h4 class="fw-bold mb-3">Business fair</h4>
+                </div>
+
+                <p class="text-secondary small">
                   For most businesses event like book fair, craft fair.
                 </p>
-                <ul class="text-decoration-none mt-4">
-                  <li>limited space access</li>
-                  <li>Security facility</li>
-                  <li>event support</li>
-                  <li>Decoration design</li>
-                  <li>Per day bill</li>
+                <ul class="mt-4">
+                  <li class="text-secondary"><i class="bi bi-check-circle-fill"></i> limited space access</li>
+                  <li class="text-secondary"><i class="bi bi-check-circle-fill"></i> Security facility</li>
+                  <li class="text-secondary"><i class="bi bi-check-circle-fill"></i> event support</li>
+                  <li class="text-secondary"><i class="bi bi-check-circle-fill"></i> Decoration design</li>
+                  <li class="text-secondary"><i class="bi bi-check-circle-fill"></i> Per day bill</li>
                 </ul>
                 <button class="btn btn-outline-primary-custom w-100 mt-4">
                   Choose plan
@@ -214,17 +246,20 @@
           <div class="col-lg-3">
             <div class="card pricing-card h-100">
               <div class="card-body">
-                <h2 class="fw-bold">$500</h2>
-                <h4 class="fw-bold mb-3">wedding basic</h4>
-                <p class="text-muted small">
+                <div class="card-title card-price">
+                  <h2 class="fw-bold">$500</h2>
+                  <h4 class="fw-bold mb-3">wedding basic</h4>
+                </div>
+
+                <p class="text-secondary small">
                   For weddings with basic plan and limited item
                 </p>
-                <ul class="feature-list mt-4">
-                  <li><i class="bi bi-check2"></i> Full space access</li>
-                  <li><i class="bi bi-check2"></i> Food arrangement</li>
-                  <li><i class="bi bi-check2"></i> management support</li>
-                  <li><i class="bi bi-check2"></i> Decoration design</li>
-                  <li><i class="bi bi-check2"></i> Billed as shift</li>
+                <ul class="mt-4">
+                  <li class="text-secondary"><i class="bi bi-check-circle-fill"></i> Full space access</li>
+                  <li class="text-secondary"><i class="bi bi-check-circle-fill"></i> Food arrangement</li>
+                  <li class="text-secondary"><i class="bi bi-check-circle-fill"></i> management support</li>
+                  <li class="text-secondary"><i class="bi bi-check-circle-fill"></i> Decoration design</li>
+                  <li class="text-secondary"><i class="bi bi-check-circle-fill"></i> Billed as shift</li>
                 </ul>
                 <button class="btn btn-outline-primary-custom w-100 mt-4">
                   Choose plan
@@ -235,26 +270,28 @@
 
           <div class="col-lg-3">
             <div
-              class="card pricing-card bg-primary text-white h-100 position-relative"
+              class="card pricing-card h-100 position-relative"
             >
               <span
-                class="bg-danger text-white rounded-pill py-1 px-3 fw-bold fs-[0.8rem] position-absolute right-[20px]"
+                class="bg-danger text-white rounded-pill py-1 px-3 fw-bold fs-[0.8rem] position-absolute start-50 top-0 translate-middle-y "
                 >Hot</span
               >
               <div class="card-body">
-                <h2 class="fw-bold">$800</h2>
-                <h4 class="fw-bold mb-3">Wedding plus</h4>
-                <p class="small opacity-75">
+                <div class="card-title card-price">
+                  <h2 class="fw-bold">$800</h2>
+                  <h4 class="fw-bold mb-3">wedding premium</h4>
+                </div>
+                <p class="text-secondary small">
                   For most weddings with premium plans
                 </p>
-                <ul class="feature-list mt-4">
-                  <li><i class="bi bi-check2"></i> Full space access</li>
-                  <li><i class="bi bi-check2"></i> Dedicated team</li>
-                  <li><i class="bi bi-check2"></i> Buffet food</li>
-                  <li><i class="bi bi-check2"></i> premium Decoration</li>
-                  <li><i class="bi bi-check2"></i> pay as plan</li>
+                <ul class="mt-4">
+                  <li class="text-secondary"><i class="bi bi-check-circle-fill"></i> Full space access</li>
+                  <li class="text-secondary"><i class="bi bi-check-circle-fill"></i> Dedicated team</li>
+                  <li class="text-secondary"><i class="bi bi-check-circle-fill"></i> Buffet food</li>
+                  <li class="text-secondary"><i class="bi bi-check-circle-fill"></i> premium Decoration</li>
+                  <li class="text-secondary"><i class="bi bi-check-circle-fill"></i> pay as plan</li>
                 </ul>
-                <button class="btn btn-light w-100 mt-4">Choose plan</button>
+                <button class="btn btn-outline-primary-custom w-100 mt-4">Choose plan</button>
               </div>
             </div>
           </div>
@@ -262,17 +299,19 @@
           <div class="col-lg-3">
             <div class="card pricing-card h-100">
               <div class="card-body">
-                <h2 class="fw-bold">$1200</h2>
-                <h4 class="fw-bold mb-3">Corporate event</h4>
+                <div class="card-title card-price">
+                  <h2 class="fw-bold">$1200</h2>
+                  <h4 class="fw-bold mb-3">Corporate event</h4>
+                </div>
                 <p class="text-muted small">
                   For most corporate business events
                 </p>
-                <ul class="feature-list mt-4">
-                  <li><i class="bi bi-check2"></i> Full space access</li>
-                  <li><i class="bi bi-check2"></i> Dedicated team</li>
-                  <li><i class="bi bi-check2"></i> Buffet food</li>
-                  <li><i class="bi bi-check2"></i> premium Decoration</li>
-                  <li><i class="bi bi-check2"></i> pay as plan</li>
+                <ul class="mt-4">
+                  <li class="text-secondary"><i class="bi bi-check-circle-fill"></i> Full space access</li>
+                  <li class="text-secondary"><i class="bi bi-check-circle-fill"></i> Dedicated team</li>
+                  <li class="text-secondary"><i class="bi bi-check-circle-fill"></i> Buffet food</li>
+                  <li class="text-secondary"><i class="bi bi-check-circle-fill"></i> premium Decoration</li>
+                  <li class="text-secondary"><i class="bi bi-check-circle-fill"></i> pay as plan</li>
                 </ul>
                 <button class="btn btn-outline-primary-custom w-100 mt-4">
                   Choose plan

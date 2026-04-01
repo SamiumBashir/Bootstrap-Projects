@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
      font-family: "Poppins", sans-serif;
 }
@@ -5,6 +7,15 @@ body {
 img {
     max-width: 100%;
     height: auto;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.card-price{
+font-family: 'Roboto', sans-serif;
 }
 
 .pricing-card {
@@ -27,4 +38,9 @@ img {
     width: 100px;
     height: 100px;
     object-fit: cover;
+}
+
+.bi-check-circle-fill{
+    color: #5243C2;
+    opacity: 0.5;
 }
