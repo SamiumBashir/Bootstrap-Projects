@@ -40,7 +40,27 @@ font-family: 'Roboto', sans-serif;
     object-fit: cover;
 }
 
-.bi-check-circle-fill{
+.fa-circle-check{
     color: #5243C2;
     opacity: 0.5;
+}
+
+.pricing-card:hover{
+    background-color: #4e73df;
+    color: #ffffff;
+    transform: translateY(-15px);
+    box-shadow: 0 20px 20px rgba(57, 100, 241, 0.336);
+}
+
+.pricing-card:hover p.text-muted,
+.pricing-card:hover ul li.text-muted,
+.pricing-card:hover ul li i.fa-circle-check {
+    color: #ffffff !important;
+    opacity: 1 !important;
+}
+
+.btn-outline-primary-custom:hover {
+    background-color: #ffffff;
+    color: #4e73df;
+    border: none;
 }
