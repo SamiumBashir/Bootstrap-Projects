@@ -64,3 +64,8 @@ font-family: 'Roboto', sans-serif;
     color: #4e73df;
     border: none;
 }
+
+.download {
+    font-size: 0.75rem;
+    color: #ffffff;
+}
