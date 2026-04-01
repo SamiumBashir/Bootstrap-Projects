@@ -48,7 +48,7 @@ font-family: 'Roboto', sans-serif;
 .pricing-card:hover{
     background-color: #4e73df;
     color: #ffffff;
-    transform: translateY(-15px);
+    transform: translateY(-50px);
     box-shadow: 0 20px 20px rgba(57, 100, 241, 0.336);
 }
 
