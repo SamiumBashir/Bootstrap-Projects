@@ -7,13 +7,6 @@ img {
     height: auto;
 }
 
-.hero-section {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero-bg.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 60vh;
-}
-
 .pricing-card {
     border: none;
     border-radius: 20px;
