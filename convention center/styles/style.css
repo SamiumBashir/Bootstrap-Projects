@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-     font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 img {
@@ -9,13 +9,13 @@ img {
     height: auto;
 }
 
-ul{
+ul {
     list-style-type: none;
     padding: 0;
 }
 
-.card-price{
-font-family: 'Roboto', sans-serif;
+.card-price {
+    font-family: 'Roboto', sans-serif;
 }
 
 .pricing-card {
@@ -34,18 +34,27 @@ font-family: 'Roboto', sans-serif;
     font-weight: bold;
 }
 
+.alert-custom {
+    border-left: 8px solid #4e73df;
+    top: 35%;
+    left: 66%;
+    z-index: 100;
+    border-radius: 4px;
+    white-space: nowrap;
+}
+
 .review-img {
     width: 100px;
     height: 100px;
     object-fit: cover;
 }
 
-.fa-circle-check{
+.fa-circle-check {
     color: #5243C2;
     opacity: 0.5;
 }
 
-.pricing-card:hover{
+.pricing-card:hover {
     background-color: #4e73df;
     color: #ffffff;
     transform: translateY(-50px);
@@ -70,8 +79,10 @@ font-family: 'Roboto', sans-serif;
     color: #ffffff;
 }
 
-@media (max-width:540px) {
-    .alart{
-        
+@media (max-width: 570px){
+    .alert-custom {
+        top: -4%;
+        left: 55%;
+        transform: translateX(-50%);
     }
 }
