@@ -88,7 +88,7 @@ ul {
 
 
 
-@media (max-width: 570px){
+@media (max-width: 768px) {
     .alert-custom {
         top: -5%;
         left: 55%;
