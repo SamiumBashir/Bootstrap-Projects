@@ -89,6 +89,15 @@ ul {
     border: none;
 }
 
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+  box-shadow: none;
+  border-bottom: 0;
+}
+
 .download {
     font-size: 0.75rem;
     color: #ffffff;
